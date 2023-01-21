@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB495B7F29421ABF0000B977 /* SavedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB495B7E29421ABF0000B977 /* SavedTableViewCell.swift */; };
+		BB495B8129421FFD0000B977 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB495B8029421FFD0000B977 /* SavedViewController.swift */; };
+		BB495B83294234C30000B977 /* HelicopterAerodynamics.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = BB495B82294234C30000B977 /* HelicopterAerodynamics.sqlite */; };
+		BB495B85294250610000B977 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB495B84294250610000B977 /* ViewController.swift */; };
+		BB9F84C5293F9EC300B101D1 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9F84C4293F9EC300B101D1 /* CalculatorViewController.swift */; };
+		BB9F84C7293F9ECB00B101D1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9F84C6293F9ECB00B101D1 /* ResultViewController.swift */; };
+		BBDA152E293F469300AD51DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDA152D293F469300AD51DA /* AppDelegate.swift */; };
+		BBDA1530293F469300AD51DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDA152F293F469300AD51DA /* SceneDelegate.swift */; };
+		BBDA1535293F469300AD51DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDA1533293F469300AD51DA /* Main.storyboard */; };
+		BBDA1537293F469400AD51DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDA1536293F469400AD51DA /* Assets.xcassets */; };
+		BBDA153A293F469400AD51DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDA1538293F469400AD51DA /* LaunchScreen.storyboard */; };
+		BBDA154D293F4AE900AD51DA /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDA1542293F4AE900AD51DA /* FMDatabaseQueue.m */; };
+		BBDA154E293F4AE900AD51DA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDA1544293F4AE900AD51DA /* FMResultSet.m */; };
+		BBDA154F293F4AE900AD51DA /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDA1545293F4AE900AD51DA /* FMDatabasePool.m */; };
+		BBDA1550293F4AE900AD51DA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDA154B293F4AE900AD51DA /* FMDatabaseAdditions.m */; };
+		BBDA1551293F4AE900AD51DA /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDA154C293F4AE900AD51DA /* FMDatabase.m */; };
+		BBDA1556293F4B4700AD51DA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BBDA1555293F4B4100AD51DA /* libsqlite3.tbd */; };
+		BBDA155A293F4DBF00AD51DA /* Hover.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDA1559293F4DBF00AD51DA /* Hover.swift */; };
+		BBDA155D293F4F1300AD51DA /* HoverDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDA155C293F4F1300AD51DA /* HoverDao.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB495B7E29421ABF0000B977 /* SavedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedTableViewCell.swift; sourceTree = "<group>"; };
+		BB495B8029421FFD0000B977 /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
+		BB495B82294234C30000B977 /* HelicopterAerodynamics.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelicopterAerodynamics.sqlite; sourceTree = "<group>"; };
+		BB495B84294250610000B977 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB9F84C4293F9EC300B101D1 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		BB9F84C6293F9ECB00B101D1 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		BBDA152A293F469300AD51DA /* HelicopterAerodynamics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelicopterAerodynamics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDA152D293F469300AD51DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBDA152F293F469300AD51DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BBDA1534293F469300AD51DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBDA1536293F469400AD51DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBDA1539293F469400AD51DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBDA153B293F469400AD51DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDA1541293F4AE800AD51DA /* HelicopterAerodynamics-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelicopterAerodynamics-Bridging-Header.h"; sourceTree = "<group>"; };
+		BBDA1542293F4AE900AD51DA /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		BBDA1543293F4AE900AD51DA /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		BBDA1544293F4AE900AD51DA /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		BBDA1545293F4AE900AD51DA /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		BBDA1546293F4AE900AD51DA /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		BBDA1547293F4AE900AD51DA /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		BBDA1548293F4AE900AD51DA /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		BBDA1549293F4AE900AD51DA /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		BBDA154A293F4AE900AD51DA /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		BBDA154B293F4AE900AD51DA /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		BBDA154C293F4AE900AD51DA /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		BBDA1555293F4B4100AD51DA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BBDA1559293F4DBF00AD51DA /* Hover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hover.swift; sourceTree = "<group>"; };
+		BBDA155C293F4F1300AD51DA /* HoverDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverDao.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBDA1527293F469300AD51DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDA1556293F4B4700AD51DA /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBDA1521293F469300AD51DA = {
+			isa = PBXGroup;
+			children = (
+				BBDA152C293F469300AD51DA /* HelicopterAerodynamics */,
+				BBDA152B293F469300AD51DA /* Products */,
+				BBDA1554293F4B4000AD51DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BBDA152B293F469300AD51DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBDA152A293F469300AD51DA /* HelicopterAerodynamics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBDA152C293F469300AD51DA /* HelicopterAerodynamics */ = {
+			isa = PBXGroup;
+			children = (
+				BBDA155B293F4E7A00AD51DA /* FMDB */,
+				BB495B82294234C30000B977 /* HelicopterAerodynamics.sqlite */,
+				BBDA152D293F469300AD51DA /* AppDelegate.swift */,
+				BBDA152F293F469300AD51DA /* SceneDelegate.swift */,
+				BBDA1533293F469300AD51DA /* Main.storyboard */,
+				BBDA1536293F469400AD51DA /* Assets.xcassets */,
+				BBDA1538293F469400AD51DA /* LaunchScreen.storyboard */,
+				BBDA153B293F469400AD51DA /* Info.plist */,
+				BBDA1559293F4DBF00AD51DA /* Hover.swift */,
+				BBDA155C293F4F1300AD51DA /* HoverDao.swift */,
+				BB9F84C4293F9EC300B101D1 /* CalculatorViewController.swift */,
+				BB9F84C6293F9ECB00B101D1 /* ResultViewController.swift */,
+				BB495B7E29421ABF0000B977 /* SavedTableViewCell.swift */,
+				BB495B8029421FFD0000B977 /* SavedViewController.swift */,
+				BB495B84294250610000B977 /* ViewController.swift */,
+			);
+			path = HelicopterAerodynamics;
+			sourceTree = "<group>";
+		};
+		BBDA1554293F4B4000AD51DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBDA1555293F4B4100AD51DA /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBDA155B293F4E7A00AD51DA /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				BBDA154A293F4AE900AD51DA /* FMDatabase.h */,
+				BBDA154C293F4AE900AD51DA /* FMDatabase.m */,
+				BBDA1549293F4AE900AD51DA /* FMDatabaseAdditions.h */,
+				BBDA154B293F4AE900AD51DA /* FMDatabaseAdditions.m */,
+				BBDA1547293F4AE900AD51DA /* FMDatabasePool.h */,
+				BBDA1545293F4AE900AD51DA /* FMDatabasePool.m */,
+				BBDA1548293F4AE900AD51DA /* FMDatabaseQueue.h */,
+				BBDA1542293F4AE900AD51DA /* FMDatabaseQueue.m */,
+				BBDA1543293F4AE900AD51DA /* FMDB.h */,
+				BBDA1546293F4AE900AD51DA /* FMResultSet.h */,
+				BBDA1544293F4AE900AD51DA /* FMResultSet.m */,
+				BBDA1541293F4AE800AD51DA /* HelicopterAerodynamics-Bridging-Header.h */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBDA1529293F469300AD51DA /* HelicopterAerodynamics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBDA153E293F469400AD51DA /* Build configuration list for PBXNativeTarget "HelicopterAerodynamics" */;
+			buildPhases = (
+				BBDA1526293F469300AD51DA /* Sources */,
+				BBDA1527293F469300AD51DA /* Frameworks */,
+				BBDA1528293F469300AD51DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelicopterAerodynamics;
+			productName = HelicopterAerodynamics;
+			productReference = BBDA152A293F469300AD51DA /* HelicopterAerodynamics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBDA1522293F469300AD51DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					BBDA1529293F469300AD51DA = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
+					};
+				};
+			};
+			buildConfigurationList = BBDA1525293F469300AD51DA /* Build configuration list for PBXProject "HelicopterAerodynamics" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBDA1521293F469300AD51DA;
+			productRefGroup = BBDA152B293F469300AD51DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBDA1529293F469300AD51DA /* HelicopterAerodynamics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBDA1528293F469300AD51DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDA153A293F469400AD51DA /* LaunchScreen.storyboard in Resources */,
+				BBDA1537293F469400AD51DA /* Assets.xcassets in Resources */,
+				BBDA1535293F469300AD51DA /* Main.storyboard in Resources */,
+				BB495B83294234C30000B977 /* HelicopterAerodynamics.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBDA1526293F469300AD51DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDA155A293F4DBF00AD51DA /* Hover.swift in Sources */,
+				BBDA155D293F4F1300AD51DA /* HoverDao.swift in Sources */,
+				BB495B8129421FFD0000B977 /* SavedViewController.swift in Sources */,
+				BB495B7F29421ABF0000B977 /* SavedTableViewCell.swift in Sources */,
+				BB495B85294250610000B977 /* ViewController.swift in Sources */,
+				BB9F84C5293F9EC300B101D1 /* CalculatorViewController.swift in Sources */,
+				BBDA154F293F4AE900AD51DA /* FMDatabasePool.m in Sources */,
+				BBDA154D293F4AE900AD51DA /* FMDatabaseQueue.m in Sources */,
+				BBDA152E293F469300AD51DA /* AppDelegate.swift in Sources */,
+				BBDA1530293F469300AD51DA /* SceneDelegate.swift in Sources */,
+				BBDA1550293F4AE900AD51DA /* FMDatabaseAdditions.m in Sources */,
+				BBDA154E293F4AE900AD51DA /* FMResultSet.m in Sources */,
+				BBDA1551293F4AE900AD51DA /* FMDatabase.m in Sources */,
+				BB9F84C7293F9ECB00B101D1 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBDA1533293F469300AD51DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBDA1534293F469300AD51DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBDA1538293F469400AD51DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBDA1539293F469400AD51DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBDA153C293F469400AD51DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBDA153D293F469400AD51DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBDA153F293F469400AD51DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WTYA7M3KW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelicopterAerodynamics/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yusufcanbircan.HelicopterAerodynamics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HelicopterAerodynamics/HelicopterAerodynamics-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBDA1540293F469400AD51DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WTYA7M3KW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelicopterAerodynamics/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yusufcanbircan.HelicopterAerodynamics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HelicopterAerodynamics/HelicopterAerodynamics-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBDA1525293F469300AD51DA /* Build configuration list for PBXProject "HelicopterAerodynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDA153C293F469400AD51DA /* Debug */,
+				BBDA153D293F469400AD51DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBDA153E293F469400AD51DA /* Build configuration list for PBXNativeTarget "HelicopterAerodynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDA153F293F469400AD51DA /* Debug */,
+				BBDA1540293F469400AD51DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBDA1522293F469300AD51DA /* Project object */;
+}
